@@ -52,6 +52,15 @@ function RegisterForm() {
         </label>
       </div>
       <div>
+        <label htmlFor="role">
+          Role: 
+          <select id="role">
+            <option value="Parent">Parent</option>
+            <option value="Coach">Coach</option>
+          </select>
+        </label>
+      </div>
+      <div>
         <input className="btn" type="submit" name="submit" value="Register" />
       </div>
     </form>
